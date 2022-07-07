@@ -1,0 +1,720 @@
+.{
+    position: absolute;
+width: 3132.5px;
+height: 14908px;
+left: -1634px;
+top: -649px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 44.53%;
+right: -35.19%;
+top: 83.45%;
+bottom: -0.79%;
+
+background: #ABABAB;
+opacity: 0.2;
+transform: matrix(0.31, 0.91, -1.02, 0.19, 0, 0);
+
+
+/* Vector 14 */
+
+position: absolute;
+width: 2228px;
+height: 14908px;
+left: -729.5px;
+top: -649px;
+
+opacity: 0.2;
+border: 2px solid #ABABAB;
+
+
+/* Vector 15 */
+
+position: absolute;
+width: 1607.91px;
+height: 10691.5px;
+left: -26.09px;
+top: -558.5px;
+
+opacity: 0.2;
+border: 2px solid #ABABAB;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Hero */
+
+position: absolute;
+width: 1680px;
+height: 828px;
+left: 120px;
+top: 169px;
+
+
+
+/* Mask Group */
+
+position: absolute;
+visibility: hidden;
+width: nanpx;
+height: nanpx;
+left: -314px;
+top: -709px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 722px;
+height: 988px;
+left: 1198px;
+top: 0px;
+
+background: #C4C4C4;
+
+
+/* Group */
+
+position: absolute;
+left: -6.88%;
+right: nan%;
+top: -8.25%;
+bottom: nan%;
+
+transform: matrix(0.99, 0.15, -0.14, 0.99, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: -6.88%;
+right: -3.59%;
+top: -5.86%;
+bottom: 95.09%;
+
+/* DCCA87 */
+background: #DCCA87;
+transform: matrix(0.98, 0.11, -0.19, 0.99, 0, 0);
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 180px;
+
+position: absolute;
+width: 1300px;
+height: 736px;
+left: 310px;
+top: 169px;
+
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 453px;
+height: 481px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 453px;
+height: 289px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector 1 */
+
+display: none;
+width: 61px;
+height: 7px;
+
+/* DCCA87 */
+border: 1px solid #DCCA87;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 231px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Chase the new Flavour */
+
+width: 231px;
+height: 30px;
+
+/* H5 23px Cormorant Upright */
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+/* identical to box height, or 30px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* FFFFFF */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 40px;
+height: 9px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+display: none;
+width: 9px;
+height: 40px;
+
+/* DCCA87 */
+background: #DCCA87;
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 9px;
+height: 40px;
+
+/* DCCA87 */
+background: #DCCA87;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* The key to Fine dining */
+
+width: 453px;
+height: 234px;
+
+/* H1 90px Cormorant Upright Semi */
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 130%;
+/* or 117px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+/* DCCA87 */
+color: #DCCA87;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus */
+
+width: 453px;
+height: 84px;
+
+/* Body 16px Regular */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+/* or 28px */
+letter-spacing: 0.04em;
+
+/* AAAAAA */
+color: #AAAAAA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+
+width: 157px;
+height: 44px;
+
+/* DCCA87 */
+background: #DCCA87;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Explore Menu */
+
+width: 93px;
+height: 28px;
+
+/* Button */
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+
+color: #0C0B08;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hero img */
+
+width: 667px;
+height: 736px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 435px;
+height: 435px;
+left: 865px;
+top: 0px;
+
+/* DCCA87 */
+background: #DCCA87;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 435px;
+height: 435px;
+left: 633px;
+top: 301px;
+
+/* DCCA87 */
+background: #DCCA87;
+
+
+/* Mask Group */
+
+position: absolute;
+width: 619px;
+height: 688px;
+left: 657px;
+top: 24px;
+
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 619px;
+height: 688px;
+left: 657px;
+top: 24px;
+
+background: #C4C4C4;
+
+
+/* khloe-arledge-ND3edEmzcdQ-unsplash */
+
+position: absolute;
+width: 1126px;
+height: 1688px;
+left: 404px;
+top: -475px;
+
+background: url(khloe-arledge-ND3edEmzcdQ-unsplash.jpg);
+
+
+/* christian-coquet-p1sdBSnS3Qc-unsplash */
+
+position: absolute;
+visibility: hidden;
+width: 1451px;
+height: 2128px;
+left: 233px;
+top: -745px;
+
+background: url(christian-coquet-p1sdBSnS3Qc-unsplash.jpg);
+
+
+/* joseph-gonzalez-fdlZBWIP0aM-unsplash 1 */
+
+position: absolute;
+visibility: hidden;
+width: 1037px;
+height: 1470px;
+left: 460px;
+top: -397px;
+
+background: url(joseph-gonzalez-fdlZBWIP0aM-unsplash);
+
+
+/* Scroll */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 61px;
+height: 113px;
+left: 1739px;
+top: 884px;
+
+
+
+/* Vector 1 */
+
+display: none;
+width: 61px;
+height: 7px;
+
+/* DCCA87 */
+border: 1px solid #DCCA87;
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector 8 */
+
+width: 61px;
+height: 0px;
+
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Scroll */
+
+width: 61px;
+height: 28px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+/* DCCA87 */
+color: #DCCA87;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Slider */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 116px;
+height: 28px;
+left: 902px;
+top: 969px;
+
+
+
+/* 01 */
+
+width: 17px;
+height: 28px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 2 */
+
+width: 16px;
+height: 0px;
+
+/* DCCA87 */
+border: 1px solid #DCCA87;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 02 */
+
+width: 17px;
+height: 28px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* F5EFDB */
+color: #F5EFDB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 03 */
+
+width: 17px;
+height: 28px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* F5EFDB */
+color: #F5EFDB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 04 */
+
+width: 17px;
+height: 28px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* F5EFDB */
+color: #F5EFDB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Hashtag */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 32px;
+height: 161px;
+left: 120px;
+top: 457px;
+
+
+
+/* #Gericht */
+
+width: 78px;
+height: 32px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 175%;
+/* identical to box height, or 32px */
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* #Bar */
+
+width: 43px;
+height: 32px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 175%;
+/* identical to box height, or 32px */
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}

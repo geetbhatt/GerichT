@@ -1,0 +1,445 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+header{
+    background-color: black;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.Navbar{
+    min-height:20%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0 24px;
+}
+.navitem{
+    width: 0px;
+}
+   
+   
+.navMenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+}
+.navBrand{
+    width: 199px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.navlink{
+
+    transition: 0.7s ease-out;
+}
+.navlink:hover{
+    color: aqua;
+}
+
+.Hamburger{
+    display: none;
+
+}
+textarea {
+    font-size: 24px;
+    border:10px solid black;
+    padding: 2rem 1rem;
+    min-height: 3em;
+    resize: both;
+    background: #ffd73e33;
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+  }
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:white;
+}
+.Main {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: #0C0C0C;
+  }
+.footer{
+    height: 20%;
+}
+.text{
+    width: 50%;
+    height: 800px;
+    color: #FFFFFF;
+    background-size: contain;
+    background-position: left center;
+    display: flex;
+    flex-direction: column;
+}
+.mtext{
+    margin: 100px 10px;
+    padding-top: 170px;
+    padding-right: 500px;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    
+
+
+}
+#key{
+    /* The key to Fine dining */
+
+width: 453px;
+height: 234px;
+
+/* H1 90px Cormorant Upright Semi */
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 130%;
+/* or 117px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+/* DCCA87 */
+color: #DCCA87;
+
+
+/* Inside auto layout */
+}
+.key1{
+    /* The key to Fine dining */
+
+width: 453px;
+height: 104px;
+
+/* H1 90px Cormorant Upright Semi */
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 130%;
+/* or 117px */
+letter-spacing: 0.04em;
+text-transform: capitalize;
+
+/* DCCA87 */
+color: #DCCA87;
+
+
+/* Inside auto layout */
+}
+.fill{
+    /* Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus */
+
+width: 453px;
+height: 84px;
+
+/* Body 16px Regular */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+/* or 28px */
+letter-spacing: 0.04em;
+padding-bottom: 100px;
+
+/* AAAAAA */
+color: #AAAAAA;
+
+
+/* Inside auto layout */
+flex: none;
+flex-grow: 0;
+
+}
+.divi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 350px;
+}
+
+h1{
+    padding: 15px;
+}
+
+.button{
+    padding-top: 15px;
+    width: 100%;
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+
+width: 170px;
+height: 44px;
+
+/* DCCA87 */
+background: #DCCA87;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Explore Menu */
+
+
+/* Button */
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+/* identical to box height, or 28px */
+letter-spacing: 0.04em;
+
+color: #0C0B08;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.para{
+    width: 100%;
+    font-family: 'Cormorant Upright';
+
+}
+.side{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.Bar{
+    height: 30%;
+}
+#bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 43px;
+    height: 32px;
+    justify-content:space-evenly;
+    padding: 0% 3rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+/* identical to box height, or 32px */
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Gericht{
+    height: 50%;
+}
+#Gericht{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 78px;
+height: 32px;
+padding: 0% 3rem;
+justify-content: stretch;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 175%;
+/* identical to box height, or 32px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0
+}
+div {
+    display: block;
+}
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box {
+    background-image: linear-gradient(#DCCA87,#DCCA87),
+                      linear-gradient(#DCCA87, #DCCA87),
+                      linear-gradient(#DCCA87, #DCCA87),
+                      linear-gradient(#DCCA87, #DCCA87),
+                      url("khloe.png");
+    background-repeat: no-repeat;
+    background-size: 10px 50%, 50% 10px, 10px 50%, 50% 10px, calc(100% - 2px) calc(100% - 5px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+    
+    height: 540px;
+    width: 500px;
+    margin: 40px;
+  }
+  .box2 {
+    background-image: linear-gradient(#DCCA87,#DCCA87),
+                      linear-gradient(#DCCA87, #DCCA87),
+                      linear-gradient(#DCCA87, #DCCA87),
+                      linear-gradient(#DCCA87, #DCCA87),
+                      url("images/chef.png");
+    background-repeat: no-repeat;
+    background-size: 10px 50%, 50% 10px, 10px 50%, 50% 10px, calc(100% - 2px) calc(100% - 5px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+    
+    height: 540px;
+    width: 500px;
+    margin: 40px;
+  }
+  
+  
+.second{
+    background-image: url(./images/malik.png);
+    width: 100%;
+    height: 1000px;
+
+}
+.imag{
+    background-image: url(./images/knive.png);
+    height: 100%;
+    background-size: 90px 600px;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.simag{
+    background-image: url(./images/G.png);
+    background-repeat: no-repeat;
+    background-size: 300px 350px;
+    background-position:center;
+
+}
+.sMain {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+  }
+.Third{
+    background-color: black;
+}
+
+@media(max-width: 786px){
+    .Hamburger{
+        display:inline-block; 
+        position: absolute;
+        left: 83%;
+        top: 23px;
+
+    
+    }
+    .navBrand{
+        /* Gerícht */
+
+position: absolute;
+width: 199px;
+height: 57px;
+left: 0px;
+top: 0px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+/* or 57px */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+    }
+    .Hamburger.active .bar :nth-child(2){
+        opacity: 0px;
+    }
+    .Hamburger.active .bar :nth-child(1){
+        transform: translateY(8px) rotateX(45deg);
+    }
+    .Hamburger.active .bar :nth-child(3){
+        transform: translateY(-8px) rotateX(-45deg);
+    }
+    .navMenu{
+        position:fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black ;
+        width: 100%;
+        text-align: center;
+        transition: 0.4s;
+    }
+    .navitem{
+        margin: 16px 0;
+
+    }
+    .navMenu.active{
+        left: 0;
+    }
+}
