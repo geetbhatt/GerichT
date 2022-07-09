@@ -387,9 +387,9 @@ div {
     .Hamburger{
         display:inline-block; 
         position: absolute;
-        left: 45%;
+        right: 10%;
         top: 23px;
-
+        width:fit-content;
     
     }
     .navBrand{
@@ -468,11 +468,92 @@ div {
     }
     .mtext{
         padding-top: 1px;
+        padding-right: 0%;
         height: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
        justify-content: space-between;
+       gap: 0%;
+    }
+    .comm {
+        display: flex;
+        flex-direction: row;
+        background-image: url(./images/malik.png);
+        width: 100%;
+        height: 100%;
+    }
+    .fourth{
+        height: 100%;
+    }
+    #key{
+        /* The key to Fine dining */
+    
+    width: 100%;
+    height: 234px;
+    
+    /* H1 90px Cormorant Upright Semi */
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+    /* or 117px */
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+    /* DCCA87 */
+    color: #DCCA87;
+    
+    
+    /* Inside auto layout */
+    }
+    .key1{
+        /* The key to Fine dining */
+    
+    width: 100%;
+    height: 104px;
+    
+    /* H1 90px Cormorant Upright Semi */
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+    /* or 117px */
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+    /* DCCA87 */
+    color: #DCCA87;
+    
+    
+    /* Inside auto layout */
+    }
+    .fill{
+        /* Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus */
+    
+    width: 100%;
+    height: 84px;
+    
+    /* Body 16px Regular */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* or 28px */
+    letter-spacing: 0.04em;
+    padding-bottom: 100px;
+    
+    /* AAAAAA */
+    color: #AAAAAA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+    
     }
 
     .divi{

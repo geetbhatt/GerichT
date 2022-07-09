@@ -35,7 +35,7 @@ flex-grow: 0;
 .frow1{
     display: flex;
     flex-direction: row;
-    height: 300px;
+    height: 100%;
     padding-top: 50px;
     width: 100%;
 }
@@ -478,6 +478,28 @@ flex-grow: 0;
     flex-direction: row;
     padding-top: 60px;
 }
+.rowone{
+    X: 84.5px
+    Y: 0px
+    W: 243px
+    H: 58px
+    X constraint: Left
+    Y constraint: Top
+    Text Style: H3 45px Cormorant upright Semi
+    Font family: Cormorant Upright
+    Font style: SemiBold
+    Font size: 45px
+    Line height: 58px
+    Line height: 130%
+    Align: Center
+    Vertical align: Top
+    Letter spacing: 4%
+    Number case: Lining
+    Number spacing: Tabular
+    Fill Color Style: FFFFFF
+    Fill: Solid
+    #FFFFFF
+    }
 .coll{
     display: flex;
     flex-direction: column;
@@ -583,10 +605,35 @@ flex-grow: 0;
     .foot{
         display: flex;
         flex-direction: column;
-        height: 300px;
+        height: 100%;
         width: 100%;
         background-image: url(./images/malik.png);
     
+    
+    }
+    .Todays{
+        /* Today’s Special */
+    
+    width: 100%;
+    height: 83px;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    /* or 83px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    
+    /* DCCA87 */
+    color: #DCCA87;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
     
     }
     .columto{
@@ -597,25 +644,29 @@ flex-grow: 0;
         color: aliceblue;
         width: 100%;
         align-items: center;
+        margin-top: 25px;
     
     }
     .columthree{
+        
         display: flex;
-        padding-top: 20px;
+        padding-top: 100px;
         flex-direction: row;
         color: aliceblue;
         width: 100%;
         align-items: center;
+        margin-top: 25px;
     
     }
     
     .columfour{
         display: flex;
-        padding-top: 20px;
+        padding-top: 200px;
         flex-direction: row;
         color: aliceblue;
         width: 100%;
         align-items: center;
+        margin-top: 500px;
 
     }
     
@@ -659,13 +710,18 @@ flex-grow: 0;
         width: 100%;
         align-items: center;
     }
+    .men{
+        /* Menu that fits you palatte */
+        display: none;
+    
+    }
     
     .comm{
         display: flex;
         flex-direction: column;
         background-image: url(./images/malik.png);
         width: 100%;
-        height: 1000px;
+        height: 100%;
     }
     .comm1{
         display: flex;
@@ -678,16 +734,15 @@ flex-grow: 0;
     .contentf{
         background-color: black;
         height: 300px;
-        width: 80px;
-        margin-left: 350px;
-        justify-content: center;
+        width: 95%;
+        margin-left: 2px;
 
     }
     .subscribe{
         /* Subscribe to Our Newsletter */
     
-    width: 7px;
-    height: 8px;
+    width: 100%;
+    height: 80px;
     
     /* H2 64px Cormorant Upright */
     font-family: 'Cormorant Upright';
@@ -696,7 +751,6 @@ flex-grow: 0;
     font-size: 6px;
     line-height: 130%;
     /* or 83px */
-    text-align: center;
     letter-spacing: 0.03em;
     text-transform: capitalize;
     font-feature-settings: 'tnum' on, 'lnum' on;
@@ -740,7 +794,7 @@ flex-grow: 0;
     /* Rectangle 22 */
     
     box-sizing: border-box;
-    width: 65px;
+    width: 295px;
     height: 60px;
     left: 0px;
     top: 0px;
@@ -751,6 +805,62 @@ flex-grow: 0;
     
     
     }
+    .roww{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+    }
 
+    .box3 {
+        background-image: linear-gradient(#DCCA87,#DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), url(images/glass.png);
+        background-repeat: no-repeat;
+        background-size: 10px 50%, 50% 10px, 10px 50%, 50% 10px, calc(100% - 2px) calc(100% - 5px);
+        background-position: left bottom, left bottom, right top, right top, 4px 4px;
+        height: 540px;
+        width: 100%;
+        margin: 10px;
+    }
+    .box1 {
+        background-image: linear-gradient(#DCCA87,#DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), url(images/Mask.png);
+        background-repeat: no-repeat;
+        background-size: 10px 50%, 50% 10px, 10px 50%, 50% 10px, calc(100% - 2px) calc(100% - 5px);
+        background-position: left bottom, left bottom, right top, right top, 4px 4px;
+        height: 540px;
+        width: 100%;
+        margin: 10px;
+    }
+    .box2 {
+        background-image: linear-gradient(#DCCA87,#DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), url(images/chef.png);
+        background-repeat: no-repeat;
+        background-size: 10px 50%, 50% 10px, 10px 50%, 50% 10px, calc(100% - 2px) calc(100% - 5px);
+        background-position: left bottom, left bottom, right top, right top, 4px 4px;
+        height: 540px;
+        width: 100%;
+        margin: 10px;
+    }
+    .box {
+        background-image: linear-gradient(#DCCA87,#DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), linear-gradient(#DCCA87, #DCCA87), url(khloe.png);
+        background-repeat: no-repeat;
+        background-size: 10px 50%, 50% 10px, 10px 50%, 50% 10px, calc(100% - 2px) calc(100% - 5px);
+        background-position: left bottom, left bottom, right top, right top, 4px 4px;
+        height: 540px;
+        width: 100%;
+        margin: 10px;
+    }
+    #foo {
+        height: 56px;
+        width: 90%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
 
 }
