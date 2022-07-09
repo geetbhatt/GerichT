@@ -395,23 +395,23 @@ div {
     .navBrand{
         /* Gerícht */
 
-position: absolute;
-width: 199px;
-height: 57px;
-left: 0px;
-top: 0px;
+        position: absolute;
+        width: 199px;
+        height: 57px;
+        left: 0px;
+        top: 0px;
 
-font-family: 'Cormorant Upright';
-font-style: normal;
-font-weight: 700;
-font-size: 44px;
-line-height: 130%;
-/* or 57px */
-text-align: center;
-letter-spacing: 0.04em;
-text-transform: uppercase;
+        font-family: 'Cormorant Upright';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 130%;
+        /* or 57px */
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
 
-color: #FFFFFF;
+        color: #FFFFFF;
 
 
     }
@@ -442,4 +442,59 @@ color: #FFFFFF;
     .navMenu.active{
         left: 0;
     }
+
+    .sMain {
+        height: 100%;
+        display: flex;
+        flex-direction: column
+      }
+      .Main {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        background-color: #0C0C0C;
+      }
+    .footer{
+        height: 20%;
+    }
+    .text{
+        width: 100%;
+        height: 100%;
+        color: #FFFFFF;
+        background-size: contain;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .mtext{
+        padding-top: 1px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .divi{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        width: 350px;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      #bar{
+        display: none;
+      }
+      #Gericht{
+        display: none;
+      }
 }

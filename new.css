@@ -565,3 +565,192 @@ flex: none;
 flex-grow: 0;
 
 }
+
+@media(max-width: 786px){
+    .frow{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .frow1{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        padding-top: 50px;
+        width: 100%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+        background-image: url(./images/malik.png);
+    
+    
+    }
+    .columto{
+        
+        display: flex;
+        padding-top: 100px;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        align-items: center;
+    
+    }
+    .columthree{
+        display: flex;
+        padding-top: 20px;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        align-items: center;
+    
+    }
+    
+    .columfour{
+        display: flex;
+        padding-top: 20px;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        align-items: center;
+
+    }
+    
+    .columto1{
+        
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        align-items: center;
+    
+    }
+    .columthree1{
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        align-items: center;
+    
+    }
+    
+    .columfour1{
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        align-items: center;
+    }
+    .columthree2{
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        align-items: center;
+    
+    }
+    
+    .columfour2{
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .comm{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./images/malik.png);
+        width: 100%;
+        height: 1000px;
+    }
+    .comm1{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./images/malik.png);
+        width: 100%;
+        height: 400px;
+    }
+    
+    .contentf{
+        background-color: black;
+        height: 300px;
+        width: 80px;
+        margin-left: 350px;
+        justify-content: center;
+
+    }
+    .subscribe{
+        /* Subscribe to Our Newsletter */
+    
+    width: 7px;
+    height: 8px;
+    
+    /* H2 64px Cormorant Upright */
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 130%;
+    /* or 83px */
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    /* DCCA87 */
+    color: #DCCA87;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+    }
+    .miss{
+        /* And never miss latest Updates! */
+    
+    width: 20px;
+    height: 28px;
+    
+    /* Body 16px Regular */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    }
+    .search{
+    /* Rectangle 22 */
+    
+    box-sizing: border-box;
+    width: 65px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    
+    /* F5EFDB */
+    border: 1px solid #F5EFDB;
+    
+    
+    
+    }
+
+
+}
