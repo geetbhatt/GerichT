@@ -44,15 +44,14 @@
             <span class="bar"></span>
          </div>
     </header>
-
-    <div class="Main">
-        <div class="text">
-            <div class="mtext">
-                <div class="side">
+    <div id="particles-js" >
+        <div class="text" >
+            <div class="mtext"id="particles-js" >
+                <div class="side" >
                     <div class="Gericht" id="Gericht"data-aos="fade-right"> #Gericht</div>
                     <div class="Bar" id="bar">#Bar</div>
                 </div>
-                <div class="divi">
+                <div class="divi ">
                 <p class="para">Chase the new Flavour</p>
                 <p data-aos="fade-up" id="key">The key to Fine dining</p>
                 <p class="fill">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
@@ -67,13 +66,14 @@
 
     
          <div class="container">
-            <div data-aos="flip-left" class="box">
+            <div data-aos="flip-left" class="box" >
+                
            
         </div>  
     </div>
 
     </div>
-    <div class="second">
+    <div class="second" >
         <div class="imag">
             <div class="simag">
             <div class="sMain">
@@ -81,7 +81,7 @@
                     <div class="mtext">
                         <div></div>
                         <div class="divi">
-                            <p data-aos="fade-up" id="key">About US</p>
+                            <p data-aos="fade-up" class="key1">About US</p>
                             <p class="fill">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
                             <div class="button">
                             Know More
@@ -320,10 +320,42 @@
 
 
 </div>
-    
+<!-- count particles -->
+<div class="count-particles">
+    <span class="js-count-particles">--</span> particles
+  </div>
+  
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  
+  <!-- scripts -->
+  <script src="./particles.js"></script>
+  <script src="app.js"></script>
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
 </body>
 <script src="script.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="particles.js"></script>
 <script>
     AOS.init({
         offset: 350,

@@ -83,12 +83,26 @@ textarea {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color:white;
+    overflow: hidden;
+    overflow: clip; 
+    contain: content;
 }
-.Main {
+#particles-js {
+    width: 100%;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
     height: 90%;
     display: flex;
     flex-direction: row;
     background-color: #0C0C0C;
+    overflow: hidden;
+    overflow: clip; 
+    contain: content;
+    
+
   }
 .footer{
     height: 20%;
@@ -101,8 +115,14 @@ textarea {
     background-position: left center;
     display: flex;
     flex-direction: column;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 .mtext{
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     margin: 100px 10px;
     padding-top: 170px;
     padding-right: 500px;
